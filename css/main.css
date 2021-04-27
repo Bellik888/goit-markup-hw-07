@@ -259,7 +259,7 @@ img {
   background-size: cover;
 }
 
-.hero .hero __text {
+.hero .hero__text {
   color: var(--white-color);
   max-width: 695px;
   height: 120px;
@@ -274,7 +274,7 @@ img {
   text-transform: uppercase;
 }
 
-.hero .hero __button {
+.hero .hero__button {
   display: inline-block;
   align-items: center;
 }
