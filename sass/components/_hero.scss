@@ -15,7 +15,7 @@
     url(../image/hero/bg-hero.jpg);
   background-size: cover;
 
-  &__text {
+  .hero __text {
     color: var(--white-color);
     max-width: 695px;
     height: 120px;
@@ -29,7 +29,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
-  &__button {
+  .hero __button {
     display: inline-block;
     align-items: center;
   }

@@ -1,12 +1,12 @@
 .our-team {
   background-color: var(--ourteam-bgc-color);
 
-  &__lists {
+  .our-team__lists {
     display: flex;
     flex-wrap: wrap;
     margin-left: calc(-1 * var(--primary-margin));
   }
-  &__item {
+  .our-team__item {
     background-color: var(--white-color);
 
     flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
@@ -16,13 +16,13 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
-  &__info {
+  .our-team__info {
     padding-top: var(--primary-margin);
     padding-bottom: var(--primary-margin);
     padding-right: 32px;
     padding-left: 32px;
   }
-  &__title {
+  .our-team__title {
     color: var(--titles-text-color);
     margin-bottom: 10px;
 
@@ -31,7 +31,7 @@
     line-height: 1.19;
     text-align: center;
   }
-  &__posistion {
+  .our-team__posistion {
     font-size: 16px;
     line-height: 1.19;
     margin-bottom: 16px;

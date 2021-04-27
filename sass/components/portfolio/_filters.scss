@@ -3,10 +3,10 @@
   justify-content: center;
   margin-bottom: 50px;
 
-  &__item:not(:first-child) {
+  .filter-lists__item:not(:first-child) {
     margin-left: 9px;
   }
-  &__btn {
+  .filter-lists__btn {
     padding: 6px 22px;
 
     color: var(--titles-text-color);

@@ -54,10 +54,10 @@
 .header-contacts {
   display: flex;
 
-  &__item:not(:first-child) {
+  .header-contacts__item:not(:first-child) {
     margin-left: 50px;
   }
-  &__link {
+  .header-contacts__link {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -68,13 +68,13 @@
     padding-bottom: 32px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &__icon {
+  .header-contacts__icon {
     margin-right: 10px;
     fill: var(--icon-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &__link:hover &__icon,
-  &__link:focus &__icon {
+  &__link:hover .header-contacts__icon,
+  &__link:focus .header-contacts__icon {
     fill: var(--active-color);
   }
 }
